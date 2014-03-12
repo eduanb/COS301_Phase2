@@ -14,8 +14,76 @@ Chris Moodley u10457489}
 \tableofcontents
 \pagebreak
 \section{Software architecture design}
+
 \subsection{Choices of Technologies}
+\begin{itemize}
+	\item LDAP
+		\begin{itemize}
+			\item LDAP will be used to authenticate users of the University.
+			\item Security
+				\begin{itemize}
+					\item Users will only be able to gain access to the system after they have been authenticated through the LDAP system, which would contain all the users of the University of Pretoria, guaranteeing security in the system.
+				\end{itemize}
+		\end{itemize}
+	\item Python, Django
+		\begin{itemize}
+			\item This will provide a channel to the database from the database to the web and mobile interfaces.
+		\end{itemize}
+	\item Android, Java
+		\begin{itemize}
+			\item This will provide a mobile channel to the system.
+			\item Accessibilty
+				\begin{itemize}
+					\item Since the system needs to be accessible on Android, the Android SDK, using Java to program it will be used.
+				\end{itemize}
+		\end{itemize}
+	\item MySQL, SQL
+		\begin{itemize}
+			\item MySQL will be used to store the roles of the users, the users marks as well as the audit logs.
+			\item Security
+				\begin{itemize}
+					\item The system will require an audit log, this will be stored in a database that cannot be edited by anyone.
+					\item The Database will contain all the roles of all the users as well as containing all the marks.
+				\end{itemize}
+		\end{itemize}
+	\item HTML 5 and CSS 3
+		\begin{itemize}
+			\item This will provide the front end of the web interface.
+			\item Usability
+				\begin{itemize}
+					\item HTML 5 as well as CSS 3 will be used to ensure that the front end of the system is structured properly to ensure a legible and usable Web Interface.
+				\end{itemize}
+		\end{itemize}
+	\item CSV	
+		\begin{itemize}
+			\item CSV will be used to import and export information to and from the system.
+			\item Scalability
+				\begin{itemize}
+					\item The information supplied by lectures will need to be processed quickly, so data inputed into the system should be in the form of a CSV file to ensure fast processing.
+				\end{itemize}
+		\end{itemize}
+	\item PDF
+		\begin{itemize}
+			\item Performance
+				\begin{itemize}
+					\item The system will have to be able to deliver reports at high speed, particularly at no more than 10 seconds, therefore PDF is the most appropriate format for this performance requirement.
+				\end{itemize}
+		\end{itemize}
+\end{itemize}
+
 \subsection{Chosen Frameworks}
+\begin{itemize}
+	\item Django web framework
+		\begin{itemize}
+			\item Enforces the Model-View-Controller Design Pattern. 
+			\item It will help ease the complexity of writing a database driven web application.
+		\end{itemize}
+	\item Django Object-Relational Mapper
+		\begin{itemize}
+			\item This will be used to guarantee persistence to a relational database.
+		\end{itemize}
+\end{itemize}
+
 \subsection{Chosen Protocols}
 \subsection{Chosen Libraries}
 \pagebreak
