@@ -186,7 +186,7 @@ The web application provides a browser based interface into our application as d
 \textbf{Description of the class diagram}\\\\
 The user provides his Login details and they are authenticated with the LDAP and if the details are incorrect an exception is thrown, else the user’s account is loaded to the application. Only the modules and assessment that the user is registered for can be viewed from the application. Through the application if the user is a student he can view his marks by generating a report. The lecture can create and maintain assessment by allocating student and markers to the leaf assessment and he is able of opening and closing an assessment as required. If a marker tries to modify or enter marks for an assessment session that he is not registered for, the application will throw an exception acknowledging the user of the error encountered.\\\\
 The lecture can also maintain marks by allocating marks for student or editing marks and all of this a actions can take place while the assessment session of the mark sheet is open. The Lecture can generate an assessment report, student mark report and the audit log report when logged in as an administrator. When generating the report assessment or student mark report, the user can aggregate the marks by weight, and or by best of aggregate. The default aggregate is the sum aggregate and the reports can be generated as pdf, a CSV file or be displayed in the web application.\\\\
-\textbf{The Activity Dargram}\\\\
+\textbf{The Activity Diagram}\\\\
 Below is the activity diagram that describes the process specification of the web application
 
 \includegraphics[scale=0.60]{activity_diagram.png}
