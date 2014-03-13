@@ -175,6 +175,20 @@
 							\includegraphics[scale=0.8]{./DatabaseDiagram/Backend_Database.jpg}
 						\end{figure}
 \subsection{Web Application}
+The web application provides a browser based interface into our application as described in this section. The class diagram below provides the implementation-independent description of the types of processes that are used in the system and passed between its components. It conveys the input and output and possible exceptions that could occur within the application.\\\\
+\includegraphics[scale = 0.75]{class_diagram.png}\\
+2.2.1 The class Diagram of the web Application.\\\\
+\textbf{Description of the class diagram}\\\\
+The user provides his Login details and they are authenticated with the LDAP and if the details are incorrect an exception is thrown, else the user’s account is loaded to the application. Only the modules and assessment that the user is registered for can be viewed from the application. Through the application if the user is a student he can view his marks by generating a report. The lecture can create and maintain assessment by allocating student and markers to the leaf assessment and he is able of opening and closing an assessment as required. If a marker tries to modify or enter marks for an assessment session that he is not registered for, the application will throw an exception acknowledging the user of the error encountered.\\\\
+The lecture can also maintain marks by allocating marks for student or editing marks and all of this a actions can take place while the assessment session of the mark sheet is open. The Lecture can generate an assessment report, student mark report and the audit log report when logged in as an administrator. When generating the report assessment or student mark report, the user can aggregate the marks by weight, and or by best of aggregate. The default aggregate is the sum aggregate and the reports can be generated as pdf, a CSV file or be displayed in the web application.\\\\
+\textbf{The Activity Dargram}\\\\
+Below is the activity diagram that describes the process specification of the web application
+
+\includegraphics[scale=0.60]{activity_diagram.png}
+2.2.2 The Activity diagram of the web Applictaion\\\\
+\textbf{The process specification}\\\\
+The user has to Login first in order to have access to the application, his details are authenticated and if details are invalid the user is returned to the application Login page, and an error displayed allowing the user to try inserting the correct details. If the login details are correct the home page is displayed with all the modules and assessment that the user is registered for. If the user is registered as an administrator, he can monitor and generate an audit log report.\\\\
+The user can generate a student mark report and if a user is a lecture, he can manage marks as well as manage assessment. When managing marks the user can remove mark sheet and or publish it and if the assessment session of the mark sheet is open the lecture or assigned marker can change and submit student marks. The lecture can also create, modify and remove assessment session. He is also able to associate an assessment session to a group of students and markers. The lecture is also responsible for opening and closing assessment sessions.
 \subsection{Android Application}
 \subsubsection{Detailed System process specification}
 All users need to enter a username and password when first opening the application on their android device.  This is necessary, for we do not want just anyone to be able to access the features and information that only specific users should have access to.\\\\
