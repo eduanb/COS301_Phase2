@@ -171,18 +171,14 @@
 \subsection{Back-end System}
 		\subsubsection{Database Design}
 		Squirrel should be incorporated into current running systems of the university. All information on lecturers and students are already in the university's databases. No data should be duplicated. The aim of the database is only to store data that is not already stored by the University. This is mostly information on assignments and marks. The database should also store all the audit log information. \\\\
-		\begin{figure}[ht!]
-							\centering
-							
-							\includegraphics[scale=0.8]{./DatabaseDiagram/Backend_Database.jpg}
-						\end{figure}
-						\pagebreak
+			\includegraphics[scale=0.8]{./DatabaseDiagram/Backend_Database.jpg}
+			2.1.1 The Database ERD Diagram\\\\
+			\pagebreak
 		\subsubsection{Back-end Class Diagram}
-			\begin{figure}[ht!]
-								\centering
-								\includegraphics[scale=0.5]{./backendClasses.jpg}
-							\end{figure}
-							\pagebreak
+		The back end of Squirrel is the most important part. It handles all the business logic and database management. It will be implemented as a continuously running server awaiting connections from either the web interface or android application. It should be able to authenticate those connections, handle them and finally return the expected result. It should also update the audit trails accordingly. \\\\
+			\includegraphics[scale=0.55]{./backendClasses.jpg}
+			2.1.2 The Back-End Class Diagram\\\\
+			\pagebreak
 \subsection{Web Application}
 The web application provides a browser based interface into our application as described in this section. The class diagram below provides the implementation-independent description of the types of processes that are used in the system and passed between its components. It conveys the input and output and possible exceptions that could occur within the application.\\\\
 \includegraphics[scale = 0.75]{class_diagram.png}\\
