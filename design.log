@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.13)  13 MAR 2014 19:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.13)  13 MAR 2014 20:29
 entering extended mode
 **design.tex
 (C:\Users\Eduan\Documents\GitHub\COS301_Phase2\design.tex
@@ -30,209 +30,226 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-No file design.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 \maketitle
-               
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.13 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 \maketitle
-               
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.13 \maketitle
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-[1
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Users\Eduan\Documents\GitHub\COS301_Phase2\design.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-No file design.toc.
+(C:\Users\Eduan\Documents\GitHub\COS301_Phase2\design.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
-[1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- [2] [3]
-Overfull \hbox (18.84386pt too wide) in paragraph at lines 134--135
-\OT1/cmr/m/n/12 doc-u-ment and vice versa. Spring also sup-ports Model-View-Con
-troller
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+ [2] [3] [4]
+<./DatabaseDiagram/Backend_Database.jpg, id=20, 630.85687pt x 444.15938pt>
+File: ./DatabaseDiagram/Backend_Database.jpg Graphic file (type jpg)
+
+<use ./DatabaseDiagram/Backend_Database.jpg>
+Package pdftex.def Info: ./DatabaseDiagram/Backend_Database.jpg used on input l
+ine 169.
+(pdftex.def)             Requested size: 504.68619pt x 355.32797pt.
+
+Overfull \hbox (34.9312pt too wide) in paragraph at lines 169--170
+ [][] 
  []
 
-[4] [5]
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
+<./AndroidActivityDiagrams/ActivityDiagram1.jpg, id=21, 359.3425pt x 337.26pt>
+File: ./AndroidActivityDiagrams/ActivityDiagram1.jpg Graphic file (type jpg)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 \item G
-             enerating PDFs
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use ./AndroidActivityDiagrams/ActivityDiagram1.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram1.jpg used on
+ input line 178.
+(pdftex.def)             Requested size: 251.53802pt x 236.08038pt.
 
-! Undefined control sequence.
-l.143 			\includegraphics
-                         [width=4in, height=4in]{./DatabaseDiagram/Backend_D...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.143 ...n, height=4in]{./DatabaseDiagram/Backend_
-                                                  Database.jpg}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 143.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 143.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 143.
-! Extra }, or forgotten $.
-l.143 ...]{./DatabaseDiagram/Backend_Database.jpg}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 		\end{itemize}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 		\end{itemize}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 		\end{itemize}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.144 		\end{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.144 		\end{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (43.02194pt too wide) in paragraph at lines 142--145
-[]\OT1/cmr/m/n/12 Database De-sign: [width=4in, height=4in]./DatabaseDiagram/Ba
-ckend$[]\OML/cmm/m/it/12 atabase:jpg$ 
  []
 
-[6] (C:\Users\Eduan\Documents\GitHub\COS301_Phase2\design.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+ []
+
+[5 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/DatabaseDiagram/Backend_Datab
+ase.jpg>]
+<./AndroidActivityDiagrams/ActivityDiagram2.jpg, id=25, 156.585pt x 377.41pt>
+File: ./AndroidActivityDiagrams/ActivityDiagram2.jpg Graphic file (type jpg)
+
+<use ./AndroidActivityDiagrams/ActivityDiagram2.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram2.jpg used on
+ input line 190.
+(pdftex.def)             Requested size: 125.26816pt x 301.9284pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./AndroidActivityDiagrams/ActivityDiagram3.jpg, id=26, 176.66pt x 538.01pt>
+File: ./AndroidActivityDiagrams/ActivityDiagram3.jpg Graphic file (type jpg)
+
+<use ./AndroidActivityDiagrams/ActivityDiagram3.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram3.jpg used on
+ input line 199.
+(pdftex.def)             Requested size: 123.66115pt x 376.60443pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--202
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/AndroidActivityDiagrams/Activ
+ityDiagram1.jpg>]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+<./AndroidActivityDiagrams/ActivityDiagram5.jpg, id=31, 539.01375pt x 548.0475p
+t>
+File: ./AndroidActivityDiagrams/ActivityDiagram5.jpg Graphic file (type jpg)
+ <use ./AndroidActivityDiagrams/ActivityDiagram5.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram5.jpg used on
+ input line 210.
+(pdftex.def)             Requested size: 377.30704pt x 383.63063pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/AndroidActivityDiagrams/Activ
+ityDiagram2.jpg>]
+<./AndroidActivityDiagrams/ActivityDiagram6.jpg, id=35, 403.5075pt x 412.54124p
+t>
+File: ./AndroidActivityDiagrams/ActivityDiagram6.jpg Graphic file (type jpg)
+ <use ./AndroidActivityDiagrams/ActivityDiagram6.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram6.jpg used on
+ input line 220.
+(pdftex.def)             Requested size: 282.45332pt x 288.7769pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--223
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/AndroidActivityDiagrams/Activ
+ityDiagram3.jpg>]
+<./AndroidActivityDiagrams/ActivityDiagram4.jpg, id=39, 538.01pt x 457.71pt>
+File: ./AndroidActivityDiagrams/ActivityDiagram4.jpg Graphic file (type jpg)
+
+<use ./AndroidActivityDiagrams/ActivityDiagram4.jpg>
+Package pdftex.def Info: ./AndroidActivityDiagrams/ActivityDiagram4.jpg used on
+ input line 230.
+(pdftex.def)             Requested size: 376.60443pt x 320.39482pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--233
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/AndroidActivityDiagrams/Activ
+ityDiagram5.jpg>] [10 <C:/Users/Eduan/Documents/GitHub/COS301_Phase2/AndroidAct
+ivityDiagrams/ActivityDiagram6.jpg> <C:/Users/Eduan/Documents/GitHub/COS301_Pha
+se2/AndroidActivityDiagrams/ActivityDiagram4.jpg>]
+(C:\Users\Eduan\Documents\GitHub\COS301_Phase2\design.aux) ) 
 Here is how much of TeX's memory you used:
- 254 strings out of 493921
- 3055 string characters out of 3144876
- 54031 words of memory out of 3000000
- 3621 multiletter control sequences out of 15000+200000
- 9108 words of font info for 32 fonts, out of 3000000 for 9000
+ 1190 strings out of 493921
+ 17034 string characters out of 3144876
+ 68001 words of memory out of 3000000
+ 4510 multiletter control sequences out of 15000+200000
+ 8500 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 22i,7n,19p,263b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on design.pdf (7 pages, 100568 bytes).
+ 27i,7n,19p,274b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on design.pdf (11 pages, 506135 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
